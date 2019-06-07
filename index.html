@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<!--vopr1-->
+		<div class="vopr1">
+			<div class="text-white" style="background: #a31aff"><h2>Какая игра имеется в Steam?</h2></div>
+			<div>
+				<div class="otv1" style="background: #d699ff"><p style="color: #6b00b3">World of Tanks</p></div>
+				<div class="otv2" style="background: #ebccff"><p style="color: #6b00b3">Left 4 Dead</p></div>
+				<div class="otv3" style="background: #f5e6ff"><p style="color: #6b00b3">Minecraft</p></div>
+			</div>
+		</div>
+
+
+		<!--vopr2-->
+		<div style="display: none;" class="vopr2">
+			<div class="text-white" style="background: #990000"><h2>Какой персонаж имеется в Left 4 Dead?</h2></div>
+			<div>
+				<div class="otv4" style="background: #ff9999"><p style="color: #800000">Кевин</p></div>
+				<div class="otv5" style="background: #ffcccc"><p style="color: #800000">Шейли</p></div>
+				<div class="otv6" style="background: #ffe6e6"><p style="color: #800000">Ник</p></div>
+			</div>
+		</div>
+
+
+		<!--vopr3-->
+		<div style="display: none;" class="vopr3">
+			<div class="text-white" style="background: #cc5200"><h2>Что за игра?</h2><img style="height: 250px; width: 350px" src="hl.png"></div>
+			<div>
+				<div class="otv7" style="background: #ffc299"><p style="color: #b34700">Garry's Mod</p></div>
+				<div class="otv8" style="background: #ffe0cc"><p style="color: #b34700">Half Life</p></div>
+				<div class="otv9" style="background: #fff0e6"><p style="color: #b34700">Portal</p></div>
+			</div>
+		</div>
+
+
+		<!--vopr4-->
+		<div style="display: none;" class="vopr4">
+			<div class="text-white" style="background: #cc5200"><h2>Что за существо?</h2><img style="height: 200px; width: 280px" src="hc.jpg"></div>
+			<div>
+				<div class="otv10" style="background: #ffc299"><p style="color: #b34700">Хедкраб</p></div>
+				<div class="otv11" style="background: #ffe0cc"><p style="color: #b34700">Вортигонт</p></div>
+				<div class="otv12" style="background: #fff0e6"><p style="color: #b34700">Гонарч</p></div>
+			</div>
+		</div>
+
+
+		<!--vopr5-->
+		<div style="display: none;" class="vopr5">
+			<div class="text-white" style="background: #0080ff"><h2>Что за пушка?</h2><img style="height: 200px; width: 280px" src="pg.gif"></div>
+			<div>
+				<div class="otv13" style="background: #99ccff"><p style="color: #0073e6">Gravity gun</p></div>
+				<div class="otv14" style="background: #cce6ff"><p style="color: #0073e6">Portal gun</p></div>
+				<div class="otv15" style="background: #e6f2ff"><p style="color: #0073e6">Physics gun</p></div>
+			</div>
+		</div>
+
+
+		<!--vopr6-->
+		<div style="display: none;" class="vopr6">
+			<div class="text-white" style="background: #5c5c8a"><h2>Что за игра?</h2><img style="height: 250px; width: 350px" src="scpsl.jpg"></div>
+			<div>
+				<div class="otv16" style="background: #c2c2d6"><p style="color: #52527a">SCP: Secret Laboratory</p></div>
+				<div class="otv17" style="background: #e0e0eb"><p style="color: #52527a">Counter-Strike</p></div>
+				<div class="otv18" style="background: #f0f0f5"><p style="color: #52527a">GTA</p></div>
+			</div>
+		</div>
+
+
+		<!--vopr7-->
+		<div style="display: none;" class="vopr7">
+			<div class="text-white" style="background: #5c5c8a"><h2>Что за SCP объект?</h2><img style="height: 250px; width: 350px" src="173.jpg"></div>
+			<div>
+				<div class="otv19" style="background: #c2c2d6"><p style="color: #52527a">SCP-049</p></div>
+				<div class="otv20" style="background: #e0e0eb"><p style="color: #52527a">SCP-106</p></div>
+				<div class="otv21" style="background: #f0f0f5"><p style="color: #52527a">SCP-173</p></div>
+			</div>
+		</div>
+
+	</div>
+
+
+
+	<script type="text/javascript">
+		//v1
+		document.querySelector(".otv1").onclick = function(){
+			alert("Не верно")
+		}
+		document.querySelector(".otv2").onclick = function(){
+			alert("Верно")
+			document.querySelector(".vopr1").style.display="none",
+			document.querySelector(".vopr2").style.display="block"
+		}
+		document.querySelector(".otv3").onclick = function(){
+			alert("Не верно")
+		}
+
+
+		//v2
+		document.querySelector(".otv4").onclick = function(){
+			alert("Не верно")
+		}
+		document.querySelector(".otv5").onclick = function(){
+			alert("Не верно")
+		}
+		document.querySelector(".otv6").onclick = function(){
+			alert("Верно")
+			document.querySelector(".vopr2").style.display="none",
+			document.querySelector(".vopr3").style.display="block"
+		}
+
+
+		//v3
+		document.querySelector(".otv7").onclick = function(){
+			alert("Не верно")
+		}
+		document.querySelector(".otv8").onclick = function(){
+			alert("Верно")
+			document.querySelector(".vopr3").style.display="none",
+			document.querySelector(".vopr4").style.display="block"
+		}
+		document.querySelector(".otv9").onclick = function(){
+			alert("Не верно")
+		}
+
+
+		//v4
+		document.querySelector(".otv10").onclick = function(){
+			alert("Верно")
+			document.querySelector(".vopr4").style.display="none",
+			document.querySelector(".vopr5").style.display="block"
+		}
+		document.querySelector(".otv11").onclick = function(){
+			alert("Не верно")
+		}
+		document.querySelector(".otv12").onclick = function(){
+			alert("Не верно")
+		}
+
+
+		//v5
+		document.querySelector(".otv13").onclick = function(){
+			alert("Не верно")
+			
+		}
+		document.querySelector(".otv14").onclick = function(){
+			alert("Не верно")
+		}
+		document.querySelector(".otv15").onclick = function(){
+			alert("Верно")
+			document.querySelector(".vopr5").style.display="none",
+			document.querySelector(".vopr6").style.display="block"
+		}
+
+
+		//v6
+		document.querySelector(".otv16").onclick = function(){
+			alert("Верно")
+			document.querySelector(".vopr6").style.display="none",
+			document.querySelector(".vopr7").style.display="block"
+		}
+		document.querySelector(".otv17").onclick = function(){
+			alert("Не верно")
+		}
+		document.querySelector(".otv18").onclick = function(){
+			alert("Не верно")
+			
+		}
+
+
+		//v7
+		document.querySelector(".otv19").onclick = function(){
+			alert("Не верно")
+			
+		}
+		document.querySelector(".otv20").onclick = function(){
+			alert("Не верно")
+		}
+		document.querySelector(".otv21").onclick = function(){
+			alert("Верно")
+			document.querySelector(".vopr7").style.display="none"
+			alert("Молодец, вы прошли тест!")
+		}
+
+
+
+	</script>
+
+</body>
+</html>
